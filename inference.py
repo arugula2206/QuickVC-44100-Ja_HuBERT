@@ -674,13 +674,13 @@ if __name__ == "__main__":
     # get arg
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--config", 
+    parser.add_argument("--hpfile", # --config
                         type=str, 
                         required=True,
                         default="./path/to/config.json", 
                         help="path to json config file")
     
-    parser.add_argument("--model_path", 
+    parser.add_argument("--ptfile", # model_path
                         type=str, 
                         required=True,
                         default="./path/to/G_xxx.pth", 

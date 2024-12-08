@@ -8,3 +8,4 @@ torchcrepe
 pyworld
 praat-parselmouth
 soundcard
+scipy==1.9.1
